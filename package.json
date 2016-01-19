@@ -1,0 +1,42 @@
+{
+  "name": "float-ps",
+  "version": "1.0.0",
+  "description": "Pokemon Showdown Common Elements",
+  "license": "MIT",
+  "repository": "CreaturePhil/float-ps",
+  "author": {
+    "name": "Phil",
+    "email": "birkal@outlook.com",
+    "url": "creaturephil.github.io"
+  },
+  "engines": {
+    "node": "> 4.0.0"
+  },
+  "scripts": {
+    "test": "gulp && mocha"
+  },
+  "files": [
+    "index.js",
+    "elements/*.js"
+  ],
+  "keywords": [
+    "float",
+    "user interfaces",
+    "components",
+    "elements",
+    "render",
+    "pokemon",
+    "pokemon-showdown",
+    "ps"
+  ],
+  "dependencies": {
+    "float-ui": "^1.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.3.4"
+  }
+}
