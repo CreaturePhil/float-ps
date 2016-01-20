@@ -8,6 +8,22 @@ Pokemon Showdown Common Elements.
 $ npm install --save float-ps
 ```
 
+## Elements
+
+### Break
+
+Converts into multiple `<br>` tags.
+
+Prop:
+
+- ``amount``: _Number_
+
+Example:
+
+```js
+<Break amount="5"></Break>
+// => <br></br><br></br><br></br><br></br><br></br>
+```
 
 ## License
 
