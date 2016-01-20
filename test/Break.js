@@ -4,7 +4,7 @@ const assert = require('assert');
 const Float = require('float-ui');
 const Float_PS = require('../');
 
-describe('rendering break', () => {
+describe('Rendering Break element', () => {
   before(() => {
     Float.extendElements(Float_PS);
   });

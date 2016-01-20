@@ -25,6 +25,21 @@ Example:
 // => <br></br><br></br><br></br><br></br><br></br>
 ```
 
+### CommandButton
+
+Creates a button that parses a command.
+
+Prop:
+
+- ``command``: _String_
+
+Example:
+
+```js
+<CommandButton command="/say hi">Click me!</CommandButton>
+// => <button name="send" value="/me says hi">Click me!</button>
+```
+
 ## License
 
 MIT © [Phil](LICENSE)
