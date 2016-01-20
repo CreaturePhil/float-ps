@@ -9,34 +9,34 @@ describe('rendering break', () => {
     Float.extendElements(Float_PS);
   });
 
-  it('should render 0 break elements', () => {
-    assert.deepEqual(Float.renderElement('<break amount="0" />'), '');
+  it('should render 0 Break elements', () => {
+    assert.deepEqual(Float.renderElement('<Break amount="0" />'), '');
   });
 
-  it('should render 1 break element', () => {
+  it('should render 1 Break element', () => {
     assert.deepEqual(
-      Float.renderElement('<break amount="1" />'),
+      Float.renderElement('<Break amount="1" />'),
       '<br></br>'
     );
   });
 
-  it('should render 2 break elements', () => {
+  it('should render 2 Break elements', () => {
     assert.deepEqual(
-      Float.renderElement('<break amount="2" />'),
+      Float.renderElement('<Break amount="2" />'),
       '<br></br><br></br>'
     );
   });
 
-  it('should render 3 break elements', () => {
+  it('should render 3 Break elements', () => {
     assert.deepEqual(
-      Float.renderElement('<break amount="3" />'),
+      Float.renderElement('<Break amount="3" />'),
       '<br></br><br></br><br></br>'
     );
   });
 
-  it('should render 4 break elements', () => {
+  it('should render 4 Break elements', () => {
     assert.deepEqual(
-      Float.renderElement('<break amount="4" />'),
+      Float.renderElement('<Break amount="4" />'),
       '<br></br><br></br><br></br><br></br>'
     );
   });
