@@ -30,7 +30,7 @@
     "ps"
   ],
   "dependencies": {
-    "float-ui": "^1.0.3"
+    "float-ui": "^1.0.5"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
