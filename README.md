@@ -2,6 +2,18 @@
 
 Pokemon Showdown Common Elements.
 
+## Usage
+
+```js
+const Float = require('float-ui');
+const Float_PS = require('float-ps');
+
+Float.extendElements(Float_PS);
+
+console.log(Float.renderElement('<CommandButton command="Hi">Say Hi!</CommandButton>'));
+// => <button name="send" value="Hi">Say Hi!</button>
+```
+
 ## Install
 
 ```
