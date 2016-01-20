@@ -52,6 +52,21 @@ Example:
 // => <button name="send" value="/me says hi">Click me!</button>
 ```
 
+### JoinRoom
+
+Link to a room.
+
+Prop:
+
+- ``room``: _String_
+
+Example:
+
+```js
+<JoinRoom room="casino">Click here to earn big bucks!</JoinRoom>
+// => <a href="/casino"><button>Click here to earn big bucks!</button></a>
+```
+
 ## License
 
 MIT © [Phil](LICENSE)
