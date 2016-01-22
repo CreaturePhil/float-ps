@@ -1,4 +1,4 @@
-# float-ps [![Build Status](https://travis-ci.org/CreaturePhil/float-ps.svg?branch=master)](https://travis-ci.org/CreaturePhil/float-ps)
+# float-ps [![Build Status](https://travis-ci.org/CreaturePhil/float-ps.svg?branch=master)](https://travis-ci.org/CreaturePhil/float-ps) [![Dependency Status](https://david-dm.org/CreaturePhil/float-ps.svg)](https://david-dm.org/CreaturePhil/float-ps) [![devDependency Status](https://david-dm.org/CreaturePhil/float-ps/dev-status.svg)](https://david-dm.org/CreaturePhil/float-ps#info=devDependencies)
 
 Pokemon Showdown Common Elements.
 
